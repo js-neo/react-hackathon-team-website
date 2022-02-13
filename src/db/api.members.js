@@ -42,7 +42,7 @@ const members = [
     },
     role: {
       text: "Here's what I did on the project:",
-      componets: [
+      components: [
         'Project structure',
         'Routing',
         'Favourites Page',
@@ -76,7 +76,7 @@ const members = [
     },
     role: {
       text: "Here's what I did on the project:",
-      componets: ['Navbar', 'Page 404'],
+      components: ['Navbar', 'Page 404'],
     },
     badge: { name: 'sad sorcerer', color: 'secondary', textColor: false },
   },
@@ -104,7 +104,7 @@ const members = [
     },
     role: {
       text: "Here's what I did on the project:",
-      componets: ['Badge', 'Button'],
+      components: ['Badge', 'Button'],
     },
     badge: { name: 'team soul', color: 'warning', textColor: true },
   },
@@ -131,7 +131,7 @@ const members = [
     },
     role: {
       text: "Here's what I did on the project:",
-      componets: ['Progress', 'About Page', 'Contacts Page'],
+      components: ['Progress', 'About Page', 'Contacts Page'],
     },
     badge: { name: 'agile badger', color: 'success', textColor: false },
   },
@@ -158,7 +158,7 @@ const members = [
     },
     role: {
       text: "Here's what I did on the project:",
-      componets: ['Slider', 'Footer', 'Header', 'MemberCard', 'Styles'],
+      components: ['Slider', 'Footer', 'Header', 'MemberCard', 'Styles'],
     },
     badge: { name: 'egolege', color: 'info', textColor: false },
   },
@@ -170,22 +170,22 @@ const members = [
     photo: yuriy,
     about: 'I like and learn to program in javascript.',
     technologies: {
-      html: { name: 'HTML', level: '40', color: colors.html },
-      css: { name: 'CSS', level: '30', color: colors.css },
-      javascript: { name: 'JavaScript', level: '50', color: colors.javascript },
-      react: { name: 'React', level: '20', color: colors.react },
-      webpack: { name: 'Webpack', level: '10', color: colors.webpack },
-      git: { name: 'GIT', level: '10', color: colors.git },
+      html: { name: 'HTML', level: '80', color: colors.html },
+      css: { name: 'CSS', level: '70', color: colors.css },
+      javascript: { name: 'JavaScript', level: '80', color: colors.javascript },
+      react: { name: 'React', level: '70', color: colors.react },
+      webpack: { name: 'Webpack', level: '40', color: colors.webpack },
+      git: { name: 'GIT', level: '50', color: colors.git },
     },
     socialLinks: {
-      facebook: 'https://www.facebook.com/',
-      github: 'https://github.com/',
+      linkedin: 'https://www.linkedin.com/in/yuriy-vedernikov/',
+      github: 'https://github.com/Yupiter78/',
       telegram: 'https://t.me/yuriy_yupiter',
-      instagram: 'https://www.instagram.com/',
+      instagram: 'https://www.instagram.com/yuriy_yupiter/',
     },
     role: {
       text: "Here's what I did on the project:",
-      componets: ['MemberCard', 'Breadcrumbs'],
+      components: ['MemberCard', 'Breadcrumbs'],
     },
     badge: { name: 'moderate pedant', color: 'primary', textColor: false },
   },

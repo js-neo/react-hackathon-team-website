@@ -54,8 +54,8 @@ const MemberCard = ({ memberId }) => {
             <p className="card-text">{about}</p>
             {role.text}{' '}
             <ul className="card-text">
-              {role.componets.map((component, index) => (
-                <li key={role.componets.length - index}>{component}</li>
+              {role.components.map((component, index) => (
+                <li key={role.components.length - index}>{component}</li>
               ))}
             </ul>
             <div className="pb-4">
@@ -65,7 +65,7 @@ const MemberCard = ({ memberId }) => {
                   href={socialLinks[key]}
                   className="pe-2"
                 >
-                  <i className={`bi bi-${key}`}></i>
+                  <i className={`bi bi-${key}`}/>
                 </a>
               ))}
             </div>
