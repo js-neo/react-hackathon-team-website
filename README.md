@@ -7,4 +7,4 @@
 * Prop-types
 * Swiper
 
-### [Deploy](https://yupiter78.github.io/react-hackathon-team-website/)          
+### [Deploy](https://js-neo.github.io/react-hackathon-team-website/)          
