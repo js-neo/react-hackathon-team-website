@@ -2,7 +2,7 @@
   "name": "react-developers-team",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yupiter78.github.io/react-hackathon-team-website/",
+  "homepage": "https://js-neo.github.io/react-hackathon-team-website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
