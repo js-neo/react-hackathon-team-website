@@ -1,7 +1,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import MenuItem from './menuItem';
-import Hamburger from './hamburger';
+import MenuItem from './MenuItem';
+import Hamburger from './Hamburger';
 import Logo from '../../assets/svg/logo';
 
 const NavBarBottom = ({ toggleCollapse }) => {

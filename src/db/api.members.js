@@ -170,8 +170,8 @@ const members = [
     photo: yuriy,
     about: 'I am a web developer with experience in JavaScript and full stack technologies. My goal is to constantly explore new JavaScript features and technologies to create more efficient and user-friendly web applications.',
     technologies: {
-      html: { name: 'HTML', level: '80', color: colors.html },
-      css: { name: 'CSS', level: '70', color: colors.css },
+      html: { name: 'HTML', level: '90', color: colors.html },
+      css: { name: 'CSS', level: '80', color: colors.css },
       javascript: { name: 'JavaScript', level: '90', color: colors.javascript },
       react: { name: 'React', level: '90', color: colors.react },
       webpack: { name: 'Webpack', level: '60', color: colors.webpack },
