@@ -8,7 +8,7 @@ import App from "./App";
 
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/react-hackathon-team-website">
         <App/>
     </BrowserRouter>,
     document.getElementById('root')
