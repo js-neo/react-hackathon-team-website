@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react-hackathon-team-website/static/css/main.aa8e6d96.css",
+    "main.js": "/react-hackathon-team-website/static/js/main.fef87165.js",
+    "static/media/yuriy.jpg": "/react-hackathon-team-website/static/media/yuriy.85ed03ddc8a4ec6b65bc.jpg",
+    "static/media/dmitry.jpg": "/react-hackathon-team-website/static/media/dmitry.e05e57ed167711acb001.jpg",
+    "static/media/valeriy.png": "/react-hackathon-team-website/static/media/valeriy.3b9a41df029fd2615a75.png",
+    "static/media/pavel.jpg": "/react-hackathon-team-website/static/media/pavel.953991cefb0424f7ffd0.jpg",
+    "static/media/luda.jpg": "/react-hackathon-team-website/static/media/luda.ac2b7263e08621b509ba.jpg",
+    "static/media/slider-bg-8.png": "/react-hackathon-team-website/static/media/slider-bg-8.2ff62646c0dbdc34d719.png",
+    "static/media/about.jpg": "/react-hackathon-team-website/static/media/about.0a9466b5fe7a09f5c804.jpg",
+    "static/media/contacts.jpg": "/react-hackathon-team-website/static/media/contacts.42a8968910359f1b7fe0.jpg",
+    "static/media/bootstrap-icons.woff?": "/react-hackathon-team-website/static/media/bootstrap-icons.94eeade15e6b7fbed95b.woff",
+    "static/media/bootstrap-icons.woff2?": "/react-hackathon-team-website/static/media/bootstrap-icons.dfd0ea122577eb61795f.woff2",
+    "static/media/andrey.jpg": "/react-hackathon-team-website/static/media/andrey.8b42077ddf6f90b99a6a.jpg",
+    "static/media/404_notfound.png": "/react-hackathon-team-website/static/media/404_notfound.41d50cdc2e6436a10072.png",
+    "static/media/instagram.svg": "/react-hackathon-team-website/static/media/instagram.787b1447c6450bcdbb2fdcba9c894a7f.svg",
+    "static/media/skype.svg": "/react-hackathon-team-website/static/media/skype.e258215a1edb2e499ce92e8807976a19.svg",
+    "static/media/tiktok.svg": "/react-hackathon-team-website/static/media/tiktok.4eb3c45ba88c3af5615d0c1f33b1ae8d.svg",
+    "static/media/viber.svg": "/react-hackathon-team-website/static/media/viber.20a3d4b7115746b46dbc7cf8f203f1d0.svg",
+    "static/media/vk.svg": "/react-hackathon-team-website/static/media/vk.2479e973b3731e3a4d5e01be1d258d79.svg",
+    "static/media/whatsapp.svg": "/react-hackathon-team-website/static/media/whatsapp.f713b8cc2d93f144d0c82bc658d266d5.svg",
+    "static/media/linkedin.svg": "/react-hackathon-team-website/static/media/linkedin.6f9e57c99e29f597826f6c49643d2956.svg",
+    "static/media/github.svg": "/react-hackathon-team-website/static/media/github.8e6e5405097d1e4d425f8b50816db18f.svg",
+    "static/media/odnoklassniki.svg": "/react-hackathon-team-website/static/media/odnoklassniki.11ed2f213234cfbf2e2a7a2726a71d95.svg",
+    "static/media/twitter.svg": "/react-hackathon-team-website/static/media/twitter.68848169578dc40ba95bc4b1106c3caa.svg",
+    "static/media/youtube.svg": "/react-hackathon-team-website/static/media/youtube.8508bbf276d728d9fb391a30aedde85c.svg",
+    "static/media/gitlab.svg": "/react-hackathon-team-website/static/media/gitlab.9d0884b3585a737dd80a0736f8a81c1d.svg",
+    "static/media/telegram.svg": "/react-hackathon-team-website/static/media/telegram.b82ca60920866afa976a019215ea182a.svg",
+    "static/media/zoom.svg": "/react-hackathon-team-website/static/media/zoom.aea1c8a91b1d6dbef14b945c3b91da33.svg",
+    "static/media/livejournal.svg": "/react-hackathon-team-website/static/media/livejournal.34042511ab07b89bbc40b67a003cb6f1.svg",
+    "index.html": "/react-hackathon-team-website/index.html",
+    "static/media/facebook.svg": "/react-hackathon-team-website/static/media/facebook.30cf95edb4a0de5fe85f95c7155b56de.svg",
+    "main.aa8e6d96.css.map": "/react-hackathon-team-website/static/css/main.aa8e6d96.css.map",
+    "main.fef87165.js.map": "/react-hackathon-team-website/static/js/main.fef87165.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa8e6d96.css",
+    "static/js/main.fef87165.js"
+  ]
+}
