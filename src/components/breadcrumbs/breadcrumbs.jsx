@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import members from '../../db/api.members';
 
 const Breadcrumbs = () => {
-  const location = useLocation();
+  const {pathname} = useLocation();
 
   const breadCrumbsItems = [
     { to: '/', label: 'Home' },
@@ -26,7 +26,7 @@ const Breadcrumbs = () => {
     return [];
   };
 
-  const locationArray = breadCrumbsData(location.pathname);
+  const locationArray = breadCrumbsData(pathname);
 
   const totalLocation = (arrayPathString, dataPath) => {
     const data = [];
