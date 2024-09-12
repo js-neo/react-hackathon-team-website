@@ -1,56 +1,59 @@
 :root {
-  --length: 100px;
-  --inner-length: 74px;
-  --line-width: 13px;
+    --length: 100px;
+    --inner-length: 74px;
+    --line-width: 13px;
 }
 
 .wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: var(--length);
-  height: var(--length);
-  border-color: lightblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--length);
+    height: var(--length);
+    border-color: lightblue;
 }
 
 .outer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: var(--length);
-  height: var(--length);
-  border-radius: 50%;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--length);
+    height: var(--length);
+    border-radius: 50%;
+    box-shadow:
+        6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
 .inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: var(--inner-length);
-  height: var(--inner-length);
-  border-radius: 50%;
-  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-    -4px -4px 6px -1px rgba(255, 255, 255, 0.7), 1px 1px 0px rgba(0, 0, 0, 0.15),
-    -1px -1px 0px rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--inner-length);
+    height: var(--inner-length);
+    border-radius: 50%;
+    box-shadow:
+        inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        1px 1px 0px rgba(0, 0, 0, 0.15),
+        -1px -1px 0px rgba(255, 255, 255, 1);
 }
 
 .svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: var(--length);
-  height: var(--length);
-  transform: rotate(-90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--length);
+    height: var(--length);
+    transform: rotate(-90deg);
 }
 
 .circle {
-  fill: none;
-  stroke-linecap: round;
-  stroke-dasharray: 313;
-  stroke-dashoffset: 0;
-  stroke-width: var(--line-width);
-  transition: stroke-dashoffset 600ms ease-out;
+    fill: none;
+    stroke-linecap: round;
+    stroke-dasharray: 313;
+    stroke-dashoffset: 0;
+    stroke-width: var(--line-width);
+    transition: stroke-dashoffset 600ms ease-out;
 }

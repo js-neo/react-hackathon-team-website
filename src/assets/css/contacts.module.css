@@ -1,28 +1,32 @@
 .wrapper {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 120px;
-  border-color: lightblue;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-color: lightblue;
 }
 
 .svg {
-  position: absolute;
-  top: 45px;
-  left: 45px;
-  width: 30px;
-  height: 30px;
-  transition: top 2s ease, left 2s ease;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    width: 30px;
+    height: 30px;
+    transition:
+        top 2s ease,
+        left 2s ease;
 }
 
 .svg:hover,
 .svg:active {
-  top: 45px !important;
-  left: 45px !important;
-  transition: top 300ms ease-out, left 300ms ease-out;
-  transform: scale(4);
+    top: 45px !important;
+    left: 45px !important;
+    transition:
+        top 300ms ease-out,
+        left 300ms ease-out;
+    transform: scale(4);
 }
