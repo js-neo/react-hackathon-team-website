@@ -33,7 +33,7 @@ const Footer = () => {
           ></FooterColumn>
           <FooterColumn
             title={'Favorites'}
-            list={[{ title: 'Favorites', to: '/favourites' }]}
+            list={[{ title: 'Favorites', to: '/favorites' }]}
             stylesColumn={stylesColumn}
           ></FooterColumn>
           <FooterColumn

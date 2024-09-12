@@ -14,7 +14,7 @@ const NavBarBottom = ({ toggleCollapse }) => {
               <Logo size={'48px'} />
             </span>
           </MenuItem>
-          <MenuItem to={'/favourites'}>Favourites</MenuItem>
+          <MenuItem to={'/favorites'}>Favorites</MenuItem>
         </div>
         <Hamburger toggleCollapse={toggleCollapse}></Hamburger>{' '}
       </div>

@@ -7,7 +7,7 @@ const Breadcrumbs = () => {
 
   const breadCrumbsItems = [
     { to: '/', label: 'Home' },
-    { to: '/favourites', label: 'Favourites' },
+    { to: '/favorites', label: 'Favorites' },
     { to: '/contacts', label: 'Contacts' },
     { to: '/about', label: 'About' },
     { to: '/:memberId', label: 'Member' },

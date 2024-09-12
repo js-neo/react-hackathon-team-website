@@ -45,7 +45,7 @@ const members = [
       components: [
         'Project structure',
         'Routing',
-        'Favourites Page',
+        'Favorites Page',
         'Card',
         'MemberCard',
       ],

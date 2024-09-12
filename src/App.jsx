@@ -6,7 +6,7 @@ import Footer from './components/footer/footer';
 import Home from './pages/home';
 import About from './pages/about';
 import Contacts from './pages/contacts';
-import Favourites from './pages/favourites';
+import Favorites from './pages/favorites';
 import Member from './pages/member';
 import PageNotFound from './pages/404';
 
@@ -23,8 +23,8 @@ const App = () => {
         <Route path="/" exact>
           <Home/>
         </Route>
-        <Route path="/favourites">
-          <Favourites />
+        <Route path="/favorites">
+          <Favorites />
         </Route>
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
