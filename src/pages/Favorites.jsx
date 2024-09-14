@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getFavoriteMembers } from "../db/storage";
-import Card from "../components/card/card";
+import Card from "../components/card/Card";
 import members from "../db/api.members";
 
 const Favorites = () => {

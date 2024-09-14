@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Redirect } from "react-router-dom";
 import members from "../db/api.members";
-import MemberCard from "../components/member-card/member-card";
+import MemberCard from "../components/member-card/Member-card";
 
 const Member = () => {
     const params = useParams();

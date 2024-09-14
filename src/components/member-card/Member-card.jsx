@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import members from "../../db/api.members";
 import { handleFavorite, isFavorite } from "../../db/storage";
 import PropTypes from "prop-types";
-import Button from "../button/button";
-import Badge from "../badge/badge";
-import Progress from "../progress/progress";
+import Button from "../button/Button";
+import Badge from "../badge/Badge";
+import Progress from "../progress/Progress";
 
 const MemberCard = ({ memberId }) => {
     const [favorite, setFavorite] = useState();

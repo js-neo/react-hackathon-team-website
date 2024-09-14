@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { handleFavorite, isFavorite } from "../../db/storage";
-import Button from "../button/button";
-import Badge from "../badge/badge";
+import Button from "../button/Button";
+import Badge from "../badge/Badge";
 import getAge from "../../utils/get-age";
 
 const Card = ({

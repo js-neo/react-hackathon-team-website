@@ -4,7 +4,7 @@ import MenuItem from "./MenuItem";
 import Hamburger from "./Hamburger";
 import Logo from "../../assets/svg/logo";
 
-const NavBarBottom = ({ toggleCollapse }) => {
+const NavbarBottom = ({ toggleCollapse }) => {
     return (
         <div className="shadow-sm navbar navbar-dark header">
             <div className="container">
@@ -22,8 +22,8 @@ const NavBarBottom = ({ toggleCollapse }) => {
     );
 };
 
-NavBarBottom.propTypes = {
+NavbarBottom.propTypes = {
     toggleCollapse: PropTypes.func.isRequired
 };
 
-export default NavBarBottom;
+export default NavbarBottom;

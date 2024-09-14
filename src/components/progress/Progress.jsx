@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import classes from "./progress.module.css";
+import classes from "./Progress.module.css";
 
 const Progress = ({
     value = "65",

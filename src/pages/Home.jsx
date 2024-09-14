@@ -1,7 +1,7 @@
 import React from "react";
 import members from "../db/api.members";
-import Card from "../components/card/card";
-import Slider from "../components/slider/slider";
+import Card from "../components/card/Card";
+import Slider from "../components/slider/Slider";
 
 const Home = () => {
     return (

@@ -1,13 +1,13 @@
 import React from "react";
 import { Route, Switch, Redirect, useLocation } from "react-router-dom";
-import Navbar from "./components/navbar/navbar";
-import Breadcrumbs from "./components/breadcrumbs/breadcrumbs";
-import Footer from "./components/footer/footer";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Contacts from "./pages/contacts";
-import Favorites from "./pages/favorites";
-import Member from "./pages/member";
+import Navbar from "./components/navbar/Navbar";
+import Breadcrumbs from "./components/breadcrumbs/Breadcrumbs";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contacts from "./pages/Contacts";
+import Favorites from "./pages/Favorites";
+import Member from "./pages/Member";
 import PageNotFound from "./pages/404";
 
 const App = () => {

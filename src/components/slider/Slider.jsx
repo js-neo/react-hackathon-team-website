@@ -3,7 +3,7 @@ import SwiperCore, { Autoplay, Pagination, Navigation, Parallax } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-import "./slider.css";
+import "./Slider.css";
 import members from "../../db/api.members";
 
 import img1 from "../../assets/images/slider-bg-8.png";

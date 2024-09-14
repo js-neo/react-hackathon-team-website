@@ -1,8 +1,8 @@
 import React from "react";
-import FooterColumn from "../footer/footer-column";
+import FooterColumn from "../footer/Footer-column";
 import { PropTypes } from "prop-types";
 
-const NavBarTop = ({ collapse }) => {
+const NavbarTop = ({ collapse }) => {
     const stylesColumn = {
         styleContainer: "py-4 col-sm-4 offset-md-1",
         styleTitle: "header-top-h5",
@@ -43,8 +43,8 @@ const NavBarTop = ({ collapse }) => {
     );
 };
 
-NavBarTop.propTypes = {
+NavbarTop.propTypes = {
     collapse: PropTypes.bool.isRequired
 };
 
-export default NavBarTop;
+export default NavbarTop;
