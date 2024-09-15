@@ -11,34 +11,42 @@ const Progress = ({
     const [barStyle, setBarStyle] = useState({ width: "0%" });
     const [circleStyle, setCircleStyle] = useState({ strokeDashoffset: 273 });
 
-    const length = 100; // don't forget to update strokeDashoffset
+    const length = 100;
     const innerLength = 74;
 
     useEffect(() => {
-        switch (type) {
-            case "bar":
+        const updateCircleStyle = () => {
+            const circleElement = document.querySelector(`.${classes.circle}`);
+            const circleLength = circleElement?.getTotalLength() ?? 0;
+
+            setCircleStyle({
+                stroke: color,
+                strokeDashoffset: ((100 - Number(value)) * circleLength) / 100,
+                strokeDasharray: circleLength
+            });
+        };
+
+        if (type === "bar") {
+            setBarStyle({
+                width: `${value}%`,
+                backgroundColor: color
+            });
+        } else if (type === "circle") {
+            updateCircleStyle();
+        }
+
+        /*
+        match (type) {
+            "bar" => {
                 setBarStyle({
                     width: `${value}%`,
                     backgroundColor: color
                 });
-                break;
-            case "circle":
-                setCircleStyle(() => {
-                    const circleLength = document
-                        .querySelector("." + classes.circle)
-                        .getTotalLength();
-                    // console.log('circleLength', circleLength)
-                    setCircleStyle({
-                        stroke: color,
-                        strokeDashoffset:
-                            ((100 - Number(value)) * circleLength) / 100,
-                        strokeDasharray: circleLength
-                    });
-                });
-                break;
-            default:
-                break;
+            },
+            "circle" => updateCircleStyle(),
+            _ => console.warn('Неизвестный тип прогресса:', type)
         }
+        */
     }, [color, type, value]);
 
     return (
@@ -51,7 +59,7 @@ const Progress = ({
                             className="progress-bar"
                             role="progressbar"
                             style={barStyle}
-                            aria-valuenow={value}
+                            aria-valuenow={Number(value)}
                             aria-valuemin="0"
                             aria-valuemax="100"
                         >
@@ -88,11 +96,11 @@ const Progress = ({
     );
 };
 
-export default Progress;
-
 Progress.propTypes = {
     value: PropTypes.string,
     title: PropTypes.string,
     color: PropTypes.string,
     type: PropTypes.string
 };
+
+export default Progress;
