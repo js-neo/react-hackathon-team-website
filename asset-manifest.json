@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-hackathon-team-website/static/css/main.aa8e6d96.css",
-    "main.js": "/react-hackathon-team-website/static/js/main.4f45bc8f.js",
+    "main.css": "/react-hackathon-team-website/static/css/main.be6e55e4.css",
+    "main.js": "/react-hackathon-team-website/static/js/main.def25db9.js",
     "static/media/yuriy.jpg": "/react-hackathon-team-website/static/media/yuriy.85ed03ddc8a4ec6b65bc.jpg",
     "static/media/dmitry.jpg": "/react-hackathon-team-website/static/media/dmitry.e05e57ed167711acb001.jpg",
     "static/media/valeriy.png": "/react-hackathon-team-website/static/media/valeriy.3b9a41df029fd2615a75.png",
@@ -31,11 +31,11 @@
     "static/media/livejournal.svg": "/react-hackathon-team-website/static/media/livejournal.34042511ab07b89bbc40b67a003cb6f1.svg",
     "index.html": "/react-hackathon-team-website/index.html",
     "static/media/facebook.svg": "/react-hackathon-team-website/static/media/facebook.30cf95edb4a0de5fe85f95c7155b56de.svg",
-    "main.aa8e6d96.css.map": "/react-hackathon-team-website/static/css/main.aa8e6d96.css.map",
-    "main.4f45bc8f.js.map": "/react-hackathon-team-website/static/js/main.4f45bc8f.js.map"
+    "main.be6e55e4.css.map": "/react-hackathon-team-website/static/css/main.be6e55e4.css.map",
+    "main.def25db9.js.map": "/react-hackathon-team-website/static/js/main.def25db9.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa8e6d96.css",
-    "static/js/main.4f45bc8f.js"
+    "static/css/main.be6e55e4.css",
+    "static/js/main.def25db9.js"
   ]
 }
